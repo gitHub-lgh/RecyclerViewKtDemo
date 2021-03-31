@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="ListView效果"
+        android:id="@+id/list_view">
+        <menu>
+            <item android:title="垂直"
+                android:id="@+id/listVertical"/>
+            <item android:title="水平"
+                android:id="@+id/listHorizontal"/>
+        </menu>
+    </item>
+    <item android:title="GridView效果"
+        android:id="@+id/grid_view">
+        <menu>
+            <item android:title="垂直"
+                android:id="@+id/gridVertical"/>
+            <item android:title="水平"
+                android:id="@+id/gridHorizontal"/>
+
+        </menu>
+    </item>
+    <item android:title="瀑布流效果"
+        android:id="@+id/stagger_view">
+        <menu>
+            <item android:title="垂直"
+                android:id="@+id/staggerVertical"/>
+
+            <item android:title="水平"
+                android:id="@+id/staggerHorizontal"/>
+
+        </menu>
+    </item>
+    <item android:title="多种条目效果"
+        android:id="@+id/moreStyleView"></item>
+</menu>
